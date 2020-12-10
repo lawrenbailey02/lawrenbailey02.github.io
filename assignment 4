@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>StockVariable.html</h2>
+
+
+
+<p id="demo"></p>
+
+<script>
+var stockApple = "13.2" ;
+var stockAmazon = "17.2" ;
+var stockSamsung = "2.2" ;
+var stockIbm = "3.0" ;
+var stockPlaystation = "5.0" ;
+
+var stockApple;
+document.getElementById("demo").innerHTML = 
+stockApple + "<br>" + stockAmazon + "<br>" + stockSamsung + "<br>" + stockIbm + "<br>" + stockPlaystation ;
+
+</script>
+
+</body>
